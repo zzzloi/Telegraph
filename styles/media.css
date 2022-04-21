@@ -1,0 +1,175 @@
+@media screen and (max-width: 1220px) {
+    .container {
+        width: 100%;
+    }
+
+    .main_block {
+        padding-top: 152px;
+    }
+
+    .header_menu, .main_block, .os.block, .aboutMessage_block, .aboutDocs_block, .footer_block {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .aboutApp_block {
+        margin: 0 50px 80px 50px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .header {
+        padding: 20px 0 0 0;
+    }
+
+    .header_button {
+        font-size: 12px;
+        padding: 10px 18px;
+    }
+
+    .aboutMessage_block {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .aboutChat_block img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .main_block {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .main_text {
+        width: 100%;
+    }
+
+    .main_block img {
+        width: 100%;
+    }
+
+    .aboutMessage img {
+        width: 100%;
+    }
+
+    .os_block {
+        margin-bottom: 80px;
+    }
+
+    .aboutDocs_block {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .aboutChat_block {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .aboutApp_block {
+        padding: 20px 20px;
+        margin: 0 50px 40px 50px;
+    }
+
+    .footer_block p {
+        font-size: 15px;
+    }
+
+    .footer_item a {
+        font-size: 13px;
+    }
+
+    .footer_item:nth-child(1), .footer_item:nth-child(2) {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .os_block {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .os_item {
+        margin-bottom: 20px;
+    }
+
+    .aboutMessage_item {
+        padding: 40px 0 0 0;
+    }
+
+    .os_block {
+        margin-bottom: 50px;
+    }
+
+    .aboutChat_text {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer_block {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .footer_block p {
+        margin-right: 0;
+    }
+
+    .footer_block ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-start: 1;
+        justify-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .main_block {
+        padding-bottom: 80px;
+        margin-bottom: 0;
+    }
+
+    .main_text {
+        padding-bottom: 70px;
+    }
+
+    .main_text h2, .aboutMessage_item h2, .aboutDocs_text h2, .aboutChat_text h2, .aboutApp_block h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+     .main_text p, .aboutMessage_item p, .aboutDocs_text p, .aboutChat_text p, .aboutApp_block p {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .aboutDocs_text, .aboutChat_block img {
+        margin-bottom: 40px;
+    }
+
+    .aboutDocs_items {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .aboutApp_block {
+        margin: 0 40px 40px 40px;
+    }
+}
+
+

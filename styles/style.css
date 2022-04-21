@@ -1,0 +1,323 @@
+.header {
+    padding: 50px 0 0 0;
+    background: #fff;
+    width: 100%;
+    position: fixed;
+}
+
+.header_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo a {
+    font-size: 20px;
+    color: #FF0043;
+}
+
+.header_button {
+    display: inline-block;
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 15px 21px;
+    background: #FF0043;
+    border-radius: 23px;
+}
+
+.main_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 172px 10px;
+    background: #fff;
+    margin-bottom: 80px;
+}
+
+.main_text h2 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 85px;
+    color: #001a4d;
+    margin-bottom: 20px;
+}
+
+.main_text p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(0, 25, 74, 0.7);
+    mix-blend-mode: normal;
+    margin-bottom: 50px;
+}
+
+.main_button {
+    display: inline-block;
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #FF0043;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    border-radius: 30px;
+    padding: 20px 50px;
+}
+
+.os_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    padding: 36px 30px 30px 30px;
+    margin-bottom: 165px;
+}
+
+.os_item {
+    padding: 36px 30px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.os_item img {
+    margin-bottom: 26px;
+}
+
+#mac_win {
+    margin-bottom: 31px;
+}
+
+.os_item h2 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #00194A;
+    margin-bottom: 15px;
+}
+
+.os_item p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(0, 25, 74, 0.7);
+    mix-blend-mode: normal;
+    margin-bottom: 21px;
+}
+
+.os_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.os_links a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: rgb(0, 25, 74, 0.5);
+    mix-blend-mode: normal;
+}
+
+.aboutMessage_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 23px 0 17px;
+    background: #fff;
+    margin-bottom: 100px;
+}
+
+.aboutMessage_item {
+    padding: 112px 23px 112px 50px;
+}
+
+.aboutMessage_item h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    margin-bottom: 30px;
+}
+
+.aboutMessage_item p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(0, 25, 74, 0.7);
+    mix-blend-mode: normal;
+}
+
+.aboutDocs_block {
+    background: #FFF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;   
+    margin-bottom: 100px;
+}
+
+.aboutDocs_text {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.aboutDocs_text h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    margin-bottom: 30px;
+}
+
+.aboutDocs_text p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(0, 25, 74, 0.7);
+    mix-blend-mode: normal;
+}
+
+.aboutDocs_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.aboutDocs_item img {
+    margin-bottom: 26px;
+}
+
+.aboutDocs_item {
+    padding: 37px 20px 30px 20px;
+}
+
+.aboutDocs_item h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #00194A;
+    margin-bottom: 15px;
+}
+
+.aboutDocs_item p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgb(0, 25, 74, 0.7);
+    mix-blend-mode: normal;
+}
+
+.aboutChat_block {
+    background: #fff;
+    padding: 0 41px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.aboutChat_text {
+    padding: 0 41px 0 50px;
+}
+
+.aboutChat_text h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    margin-bottom: 30px;
+}
+
+.aboutChat_text p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(0, 25, 74, 0.7);
+    mix-blend-mode: normal;
+}
+
+.aboutApp_block {
+    background: #00194A;
+    border-radius: 25px;
+    padding: 50px 0;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.aboutApp_text h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.aboutApp_text p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.aboutApp_button {
+    display: inline-block;
+    font-family: 'Jost';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #FF0043;
+    border-radius: 30px;
+    padding: 20px 45px;
+}
+
+.footer_block {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.footer_block ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_item {
+    margin-right: 30px;
+}
+
+.footer_item:last-child {
+    margin-right: 0;
+}
+
+.footer_block p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #00194A;
+    margin-right: 30px;
+}
+
+.footer_item a {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    color: #00194A;
+}
+
+
+
+
